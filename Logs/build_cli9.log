@@ -1,0 +1,27 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.5/staging' branch; Version is '6000.5.2f1 (eb73d3b415a1) revision 15430611'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) Core' Language: 'ja' Physical Memory: 16287 MB
+[Licensing::IpcConnector] Channel LicenseClient-maena doesn't exist
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-07-10T05:59:30Z
+[Licensing::Module] Successfully launched the LicensingClient (PId: 35372)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-maena" at "2026-07-10T05:59:30.9396319Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 25204, path: "C:/Program Files/Unity/Hub/Editor/6000.5.2f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.5.2f1\Editor\Unity.exe
+-batchmode
+-quit
+-projectPath
+.
+-logFile
+Logs/build_cli9.log
+-executeMethod
+WebGLBuilder.Build
+Couldn't set project path to: C:/Users/maena/UnityGames/MyFirstGame/pages-deploy
+Exiting without the bug reporter. Application will terminate with return code 1Starting IPC server.
+Waiting for clients to connect on \\.\pipe\Unity-LicenseClient-maena, press Ctrl-C to exit.
+Shut down.
